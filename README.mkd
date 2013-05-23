@@ -1,0 +1,27 @@
+Learning the Scheme Programming Language
+========================================
+
+I've heard so much about it, so I'm going through SICP by way of Scheme.
+
+Organization
+------------
+
+This repository is broken up into three directories:
+
+1)	__sicp Holds my solutions to the SICP problem sets. The directory organization is as follows:
+
+		sicp
+		|
+		+--> (chapters 1..5)
+			 |
+			 +--> (sections)
+				  |
+				  +--> (subsections)
+					   |
+					   +--> (individual problems)
+							|
+							+--> (problem files)
+
+2)	__experiments__ A messy collection of code experiments. There is little order to this, and very little lasting value.
+
+3)	__curios__ Larger programs I develop as inspiration strikes.
