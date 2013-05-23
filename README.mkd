@@ -8,7 +8,7 @@ Organization
 
 This repository is broken up into three directories:
 
-1)	__sicp Holds my solutions to the SICP problem sets. The directory organization is as follows:
+1)	__sicp__ Holds my solutions to the SICP problem sets. The directory organization is as follows:
 
 		sicp
 		|
