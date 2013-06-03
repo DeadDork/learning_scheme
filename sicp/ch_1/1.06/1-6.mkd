@@ -1,0 +1,3 @@
+When Alyssa attempts to use `new-sqrt-iter`, the `new-if` procedure evaluates the `else` clause, even if it is nonsensical, whereas the `if-else` special form does not.
+
+[new-if_fallacy.scm](https://github.com/DeadDork/learning_scheme/blob/master/sicp/ch_1/1.06/new-if_fallacy.scm) demonstrates this.
