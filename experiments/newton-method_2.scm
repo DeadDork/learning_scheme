@@ -8,7 +8,10 @@
                radicand)))
 
 (define (good-enough? guess radicand)
-  (< (abs (- (square guess) radicand)) 0.001))
+  (< (abs
+       (- (square guess)
+          radicand))
+     0.001))
 
 (define (abs x)
   (if (< x 0)
