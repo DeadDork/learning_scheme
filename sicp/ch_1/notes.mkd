@@ -1,0 +1,35 @@
+Chapter 1
+=========
+
+1
+-
+
+1.1.	What is meant by a "computational process" in this context? The text specifically says "abstract beings that inhabit computers". I am going to interpret that as a spirit animating a program, much in the way of _Fantasia_'s animated brooms: without clear instructions, they will do crazy things.
+
+1.2.	Data, on the other hand, is what processes manipulate. Extending the example of the magician's apprentice, they are analogous to the brooms (and buckets, and water).
+
+2.1.	There is certainly a metaphysical question being asked here. Is a computational process just the particular, arbitrary manipulation of bits, or is it the *idea* of this. For instance, is the computational process for addition just the particular bit manipulation, or is it also the idea of addition. Some would say that the latter decomposes into the former--but I'm rather Kantian about this, so I've got room in my universe for intuitionism/platonism :)
+
+2.2.	As an extension of the above, my epistemological position makes it quite easy to have AI. However, they are defined--search, Turing chatbots, etc.--metaphysically there's no issue.
+
+5.1.	I like that modularity is central to good program design. It certainly makes sense: just look at libraries like QuickCheck in Haskell, which make it straightforward to automatically design unit-tests for functions. The more modular, the easier this is to do, as each unit is more independent of another. To this end, a functional programming language, especially one that's pure & statically typed, makes it easier to write highly modular code (though I hear that purity presents significant issues--which I've yet to confirm myself. I'm certainly excited to expore SML to see if an impure FPL is generally superior!).
+
+*7.1.	I utterly do not understand what "symbolic differentiation and integration of algebraic expressions" means. I need to ask about this on IRC.*
+
+*8.1.	What the heck are atoms & lists?*
+
+10.1.	I'm looking forward to exploring this blurred distinction between passive data & active processes!
+
+1.1
+---
+
+1.1.	It's certainly true that programming languages, like all languages, are vehicles with which we think. Different languages make it easier, harder, stranger, etc. to think a particular thought. I'm excited to explore thinking in Scheme!
+
+2.1.	The authors make a big deal out of Locke's epistemology: simple ideas, complex ideas, combination of simple ideas into complex ideas, comparison of ideas, analysis of complex ideas into simple ideas via abstraction. I am curious to see how this simple epistemology serves them throughout the book.
+
+3.1.	The allusion here is to the blurred distinction between passive data & active processes.
+
+1.1.2
+-----
+
+1.1.	Why is it critical for a programming language to use names for computational objects? My best guess: this allows a language to refer to complex objects as simple objects. In other words, this is a critical part of synthesizing simple objects into complex object, as without a name a complex object is just a collection of simple objects (e.g. without a name, it is very hard to distinguish the statue of liberty from a collection of copper atoms).
