@@ -3,6 +3,11 @@
 ; Conclusion: functions are evaluated in full, not so much the special forms
 ; `if` and `cond`.
 
+; N.B. I wonder if it would be possible to write a `new-if` using lazy
+; evaluation? My sense is that this would not work around the fundamental
+; problem, as all that it would do is create a memory leak with thunks.
+; Still, it's worth considering.
+
 (define (new-if if-stmnt then-stmnt else-stmnt)
   (cond (if-stmnt then-stmnt)
         (else else-stmnt)))
