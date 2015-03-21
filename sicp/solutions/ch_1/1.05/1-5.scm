@@ -1,22 +1,9 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; Comments
-;;;
-;;; Demonstrates my proposed solution to 1-5.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(define (p) p)
+(define (p) (p)) ; if you call (p), you get an infinite regression
 
 (define (test x y)
   (if (= x 0)
       0
       y))
 
-(test 0 (p)) ; Returns 0, as expected
-
-(test 1 (p)) ; Returns '2: #[compound-procedure 2 p]'. I have no idea what that means.
-
-(p) ; Hangs (don't know why)
-
-(if (= 1 1)
-    (p)
-    0) ; Also returns '2: #[compound-procedure 2 p]'
+; Applicative-order evaluation (i.e. tree accumulation) will result in calling (p), and thus will get caught in an infinite regress
+; Normal-order evaulation (i.e. expand, then evaluate) will result in 0, as the if statement will preclude the need to evaluate (p)
