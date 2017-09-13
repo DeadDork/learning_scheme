@@ -1,1 +1,0 @@
-Note that Scheme uses applicative order evaluation. As such, functions that call themselves will infinitely regress even if a conditional precludes this.
